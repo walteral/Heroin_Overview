@@ -11,6 +11,7 @@ body {
 }
 p {
     font-family: 'Coustard', serif;
+    border-radius: 10px;
 }
 .cesium-viewer-cesiumWidgetContainer {
     position: fixed;
@@ -106,8 +107,8 @@ h1 {
 
 section {
 
-    padding: 5px 15px 10px 15px;
-    margin: 5px;
+    padding: 10px 15px 10px 15px;
+    margin: 15px;
     border-radius: 5px;
     background: #eee;
     opacity: 0;
@@ -241,11 +242,11 @@ video {
 .storymap-scroll-down {
     position: fixed;
     top: 90%;
-    left: 2%;
+    left: 50%;
     cursor: pointer;
     z-index: 1001;
     font-size: 40px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 31, 48, 0.9);
     text-shadow:  0 1px 1px rgba(197, 197, 197, 0.95);
 }
 
@@ -271,23 +272,21 @@ video {
 }
 
 .storymap-legend {
-    position: fixed;
-    line-height: 16px;
-    width: 27%;
+    position: relative;
+    line-height: 12px;
+    width: 100%;
+    /*height: 6%;*/
     z-index: 1000;
-    right: 20px;
-    top: 100px;
-    display: auto;
+    /*right: 20px;*/
+    /*top: 100px;*/
     color: #333333;
     font-family: 'Coustard', serif;
-    padding: 10px 12px;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
-    border-radius: 12px;
+    /*padding: 6px 10px;*/
+    /*background: rgba(255, 255, 255, 0.5);*/
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);*/
+    /*border-radius: 12px;*/
 }
-.storymap-legend {
-    left: 20px;
-}
+
 .storymap-legend i {
     width: 16px;
     height: 16px;
@@ -305,7 +304,7 @@ video {
 }
 
 .storymap-legend p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 18px;
     margin: 10px;
 }
@@ -438,11 +437,24 @@ nav li a,
     background-color: #111;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
-    z-index: 1000;
+    z-index: 2000;
     font-family: 'Coustard', serif;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     width: 300px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("img/poppies.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
