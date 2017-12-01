@@ -161,7 +161,7 @@
                     </h1><br><br><br><br><br><br>
                     <div class="container viewing " style="background-color:whitesmoke; opacity: 0.8;font-family: 'Pompiere', cursive;; font-size: 30px;">
 
-                        <p style="background-color: whitesmoke; padding: 10px; position: center;font-size: 30px;opacity: 1; text-shadow: 1px 1px #0f0f0f;">
+                        <p style="background-color: whitesmoke; padding: 10px; position: center;font-size: 30px;opacity: 1; text-shadow: 1px 1px #0f0f0f; font-size: 100%px">
                             Opiates have become an epidemic across our world. Millions of people are affected by this drug every year. The origin of 80% of the world's opiates originate from Afghanistan. Here we will look at how opiates travel from Afghanistan to it's destinations around the world.
                         </p>
 
@@ -206,7 +206,7 @@
                     Starting from the northern providences heroin and opium is transported across the border into Turkmenistan, Uzbekistan and Tajikistan. An estimated <b style="color: #cc0000"> 95 tons</b> of opiates is moved through this route every year. There is an estimated <b style="color: #cc0000;font-family: 'Pompiere', cursive;"> $393 million</b> in profits that flow through this route. The amount of opium and heroin trafficked in Northern Afghanistan is about  <b style="color: #cc0000;font-family: 'Pompiere', cursive;"> 3%</b> of the entire nations GDP.<br>
                     <i class="fa fa-usd animated pulse infinite"></i> <b style="font-size: 40px">393 million in profit</b><br>
                     <b class="animated pulse infinate" style="font-family: 'Pompiere', cursive;; font-size: 40px">3% of Afghanistan's GDP</b><br>
-                    <b style="font-size: 30px; font-family: 'Pompiere', cursive;">75% is transported by truck</b><img src="img/delivery-truck.svg" class="animated bounceInLeft infinite" style="animation-delay: 2s; animation-duration: 8s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%">
+                    <b style="font-size: 40px; font-family: 'Pompiere', cursive;">75% is transported by truck</b><img src="img/delivery-truck.svg" class="animated bounceInLeft infinite" style="animation-delay: 2s; animation-duration: 8s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%">
                     <img src="img/container_train.jpg" class="img-responsive img-thumbnail" width="100%">
             </section>
 
@@ -232,8 +232,8 @@
                     countries to the profitable western European nations. An estimated <b style="color: #cc0000">$28 Billion</b> is made in profits
                     every year, an amount which exceeds the total GDP of Afghanistan which was <b style="color: #cc0000">$21 Billion</b> in 2014. <b style="color: #cc0000">27% </b> of the opiates are consumed inside of the Islamic Republic of Iran.
                 </p><hr>
-               . <i class="fa fa-usd fa-2x animated pulse infinite " aria-hidden="true"></i><b style="font-family: 'Pompiere', cursive;; font-size: 50px"> 28 billion in profits</b><hr>
-                <b>Yearly profits from other top companies:</b><br><br>
+               . <i class="fa fa-usd fa-2x animated pulse infinite " aria-hidden="true"></i><b class="fa animated pulse infinite" style="font-family: 'Pompiere', cursive;; font-size: 50px">    28 billion in profits</b><hr>
+                <b style="font-size: 40px;">Yearly profits from other top companies:</b><br><br>
                 <img src="img/beer.svg" style="width: 40px; padding-bottom: 10px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>8.27b -> Anheuser-Busch</b><br><br>
                 <img src="img/disneyland-castle.svg" style="width: 40px; padding-bottom: 10px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>8.38b -> Disney</b><br><br>
                 <img src="img/windows-8.svg" style="width: 40px; padding-bottom: 10px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>12.19b -> Microsoft</b><br><br>
@@ -297,7 +297,7 @@
 
         </p>
 
-                <img src="img/nationalEM_Trump.PNG" width="100%"><br>
+                <img src="img/trump_EM.PNG" width="100%"><br>
                 <b> Drug related deaths from 1999 - 2015</b><br>
                     <i class="fa fa-square" style="color: #000000; opacity: 1; white-space: nowrap"></i> 7049 - 12919 <br>
                     <i class="fa fa-square" style="color: #430f02; opacity: 1; white-space: nowrap"></i> 4692 - 7048 <br>
@@ -316,14 +316,17 @@
 
             </section>
 
-            <section data-scene="end" data-background="img/poppyBW.png" class="viewing section-opacity"
+            <section data-scene="end" data-background="img/poppyBW.png"
                      style="height: 260.85px; width: 0px; padding: 0px;">
+
                 <div class="fullscreen text-center end-bg-img">
                     <br>
                     <h1 class="">Thank You</h1>
-                    <p style="background-color: whitesmoke; padding: 10px; position: center;font-size: 30px;opacity: .7">If you know someone that has lost their life to the Opiate epidemic please share your story and help bring a face to the numbers
-                    </p></div>
+                    <b style="background-color: whitesmoke; padding: 10px; position: center;font-size: 40px;opacity: .7">If you know someone that has lost their life to the Opiate epidemic please share your story and help bring a face to the statistics. <br>Please go to: https://opioidepidemic.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=19f5247b5bd043dda9a25b22c0919760
+                    </b><br>
 
+                </div>
+                <a href="https://opioidepidemic.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=19f5247b5bd043dda9a25b22c0919760">SHARE</a>
             </section>
 
         </div>
@@ -535,7 +538,7 @@
             layer: L.geoJson.ajax('assets/drug_deaths_simple.geojson', {
                 style: style,
                 onEachFeature: function(feature,layer){
-                    layer.bindPopup(feature.properties.deaths);
+                    layer.bindPopup(feature.properties.NAME);
 
 
             }}),
