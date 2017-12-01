@@ -134,7 +134,7 @@
     <a data-toggle="modal" data-target="#aboutModal">About</a>
     <a href="#">Routes</a>
     <a data-toggle="modal" data-target="#creditsModal">Credits</a>
-    <a href="#">Contact</a>
+
 
 </div>
 
@@ -174,7 +174,7 @@
             <section data-scene="scene2">
 
 
-                <h2 style="font-size: xx-large">Afghanistan</h2>
+                <h2>Afghanistan</h2>
                 <p>Afghanistan is the leading source of opiates in the world. This dangerous commodity has transformed the global economy. Opiates include <b style="color: #cc0000">Opium, Heroin and Morphine.</b></p>
                 <p><i class="fa fa-globe fa-3x animated pulse infinite"></i><b style="font-family: 'Pompiere', cursive;color: #cc0000; white-space: nowrap; font-size: 50px">80%</b>  of the world's opiate supply originates from Afghanistan. It then gets smuggled across the country's thousands of miles of border into neighboring countries and smuggled in to high-profit destinations such as North America, Western Europe, or Australia. The most important heroin producing providences within Afghanistan are<i> Helmand, Kandahar and Nangahar</i>, highlighted on the map to the left.</p>
                 <img src="img/poppies.jpg" class="img-responsive img-thumbnail" width="100%">
@@ -404,8 +404,8 @@
 
 
     function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("storymap").style.marginLeft = "250px";
+        document.getElementById("mySidenav").style.width = "150px";
+        document.getElementById("storymap").style.marginLeft = "150px";
     }
 
     function closeNav() {
@@ -535,7 +535,7 @@
             layer: L.geoJson.ajax('assets/drug_deaths_simple.geojson', {
                 style: style,
                 onEachFeature: function(feature,layer){
-                    layer.bindPopup(feature.properties.NAME);
+                    layer.bindPopup(feature.properties.deaths);
 
 
             }}),
@@ -768,7 +768,7 @@
         progressline: true,
         navwidget: false,
         createMap: function () {
-            var map = L.map($(".storymap-map")[0], {scrollWheelZoom: false}).setView([40, -10], 3);
+            var map = L.map($(".storymap-map")[0], {scrollWheelZoom: false, zoomControl:false}).setView([40, -10], 3);
             new L.Control.GlobeMiniMap({
                 marker: 'red',
                 position: 'bottomleft'
