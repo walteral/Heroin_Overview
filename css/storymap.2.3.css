@@ -5,12 +5,12 @@ html {
 
 body {
     height: 100%;
-    font-family: 'Coustard', serif;
+    font-family: 'Pompiere', cursive;
 
-    font-size: 16px;
+    font-size: 30px;
 }
 p {
-    font-family: 'Coustard', serif;
+    font-family: 'Pompiere', cursive;
     border-radius: 10px;
 }
 .cesium-viewer-cesiumWidgetContainer {
@@ -29,10 +29,10 @@ p {
 h1 {
     margin: 20px;
     padding-top: 100px;
-    font-family: 'Coustard', serif;
-    color: rgba(255, 255, 255, 0.95);
-    font-size: 50px;
-    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+    font-family: 'Pompiere', cursive;
+    color: rgb(251, 251, 251);
+    font-size: 80px;
+    text-shadow: 0 0 6px rgba(87, 87, 87, 0.69);
 }
 
 .storymap-breakpoint-current {
@@ -49,7 +49,7 @@ h1 {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 1000px;
-    display: block;
+    display: inline-block;
     z-index: 1000;
     background-color: rgba(238, 238, 238, 0);
 }
@@ -99,9 +99,9 @@ h1 {
         background: rgba(221, 221, 221, 0.3);
     }
 
-    .storymap-scroll-down {
-        display: none;
-    }
+    /*.storymap-scroll-down {*/
+        /*display: none;*/
+    /*}*/
 
 }
 
@@ -149,7 +149,7 @@ section {
     position: fixed;
     top: 45%;
     left: 50%;
-    font-size: 50px;
+    font-size: 80px;
     z-index: 1003;
     animation: spin 1.2s linear infinite;
 
@@ -245,7 +245,7 @@ video {
     left: 50%;
     cursor: pointer;
     z-index: 1001;
-    font-size: 40px;
+    font-size: 80px;
     color: rgba(255, 31, 48, 0.9);
     text-shadow:  0 1px 1px rgba(197, 197, 197, 0.95);
 }
@@ -257,7 +257,7 @@ video {
 
 
 .storymap-attribution {
-    font-family: 'Coustard', serif;
+    font-family: 'Pompiere', cursive;;
 
     background: rgba(255, 255, 255, 0.6) !important;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) ;
@@ -280,7 +280,7 @@ video {
     /*right: 20px;*/
     /*top: 100px;*/
     color: #333333;
-    font-family: 'Coustard', serif;
+    font-family: 'Pompiere', cursive;;
     /*padding: 6px 10px;*/
     /*background: rgba(255, 255, 255, 0.5);*/
     /*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);*/
@@ -304,7 +304,7 @@ video {
 }
 
 .storymap-legend p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 18px;
     margin: 10px;
 }
@@ -320,7 +320,15 @@ video {
     box-shadow: 0 0 2px rgba(98, 16, 0, 0.9);
 }
 
-
+h3 {
+    font-family: 'Pompiere', cursive;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Pompiere', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
 nav {
     height: 34px !important;
 }
@@ -378,7 +386,7 @@ nav li a,
 .nav {
     position: fixed;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 55px;
     color: whitesmoke;
     z-index: 1100;
     top: 1%;
@@ -431,30 +439,27 @@ nav li a,
 .dropdown-content {
     display: none;
     position: relative;
-    left: 250px;
-    font-size: 20px;
+    left: 200px;
+    font-size: 50px;
     color: whitesmoke;
     background-color: #111;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 2000;
-    font-family: 'Coustard', serif;
+    font-family: 'Pompiere', cursive;
+}
+b {
+    font-family: 'Pompiere', cursive;;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     width: 300px;
 }
-.parallax {
-    /* The image used */
-    background-image: url("img/poppies.jpg");
-
-    /* Set a specific height */
-    height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*.fa {*/
+    /*display: inline;*/
+    /*width: 100%;*/
+/*}*/
+/*.fa span{*/
+    /*white-space: normal;*/
+/*}*/
