@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Heroin Drug Trade</title>
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <!--animation-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/storymap.2.3.css">
-    <link href="https://fonts.googleapis.com/css?family=Coustard|Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
 
 
     <style>
@@ -23,9 +23,8 @@
                 position: absolute;
                 right: 5px;
             }
-
-
         }
+
     </style>
 
     <!--add required libraries-->
@@ -44,9 +43,20 @@
     <script src="js/globeminimap.js"></script>
 
     <!--swoopyArrow-->
-    <script src="https://unpkg.com/leaflet-swoopy@2.0.0/build/Leaflet.SwoopyArrow.js"></script>-->
+    <!--<script src="https://unpkg.com/leaflet-swoopy@2.0.0/build/Leaflet.SwoopyArrow.js"></script>&ndash;&gt;-->
     <!--<script src="js/Leaflet.SwoopyArrow-customized.js"></script>-->
-    <script src="https://unpkg.com/leaflet-swoopy"></script>
+    <!--<script src="https://unpkg.com/leaflet-swoopy"></script>-->
+
+
+    <!--Any chart libs-->
+    <!--<script src="https://cdn.anychart.com/js/8.0.1/anychart-bundle.min.js"></script>-->
+    <!--<script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-base.min.js"></script>-->
+    <!--<script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-map.min.js"></script>-->
+    <!--<script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-exports.min.js"></script>-->
+    <!--<script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-ui.min.js"></script>-->
+    <!--<script src="https://cdn.anychart.com/releases/8.0.1/geodata/countries/afghanistan/afghanistan.js"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>-->
+    <!--<link rel="stylesheet" href="https://cdn.anychart.com/releases/8.0.1/css/anychart-ui.min.css">-->
 
     <!--story map plugin-->
     <script src="js/storymap.2.3.js"></script>
@@ -97,12 +107,13 @@
                 <h4 class="modal-title">Credis</h4>
             </div>
             <div class="modal-body">
-                <p>This web mapping project has been created for GEOG 371: Web Mapping, Instructor: Bo Zhao.<br>
+                <p>
                 This webpage was created using the following libraries: Leaflet, Bootstrap, Jquery, font=awesome, D3
                     Video Credits: "The Unseen Afghanistan", YouTube video, 3:35, posted by Khyber Khan, Nov 20, 2016, https://www.youtube.com/watch?v=JDrScVo7aBs<br>
                     End photo credits: https://userscontent2.emaze.com/images/7d765166-02ae-4221-b3a4-c755f5e8827a/32509c83-ac87-4dc2-8f67-7fe76a86e8b0.jpg <br>
                     Country shapefiles:http://www.gadm.org/download<br>
-                    Picture sources: https://www.globalresearch.ca/afghanistan-britain-is-protecting-the-biggest-heroin-crop-of-all-time/6405; http://www.freemalaysiatoday.com/category/world/2017/08/08/from-poppy-to-heroin-taliban-move-into-afghan-drug-production/; http://www.railwaypro.com/wp/the-historical-silk-road-reinvented-on-railways/; http://www.balkaninsight.com/en/article/drug-lord-shot-in-%D0%B0-gunfight-at-bulgarian-sea-resort-06-09-2016; https://www.expresstorussia.com/moscow-tours.html; https://www.vice.com/en_us/article/vdxegj/french-connection-kevin-perry-marseille; http://www.cnn.com/2017/07/31/asia/india-heroin-drug-bust/index.html
+                    Picture sources: https://www.globalresearch.ca/afghanistan-britain-is-protecting-the-biggest-heroin-crop-of-all-time/6405; http://www.freemalaysiatoday.com/category/world/2017/08/08/from-poppy-to-heroin-taliban-move-into-afghan-drug-production/; http://www.railwaypro.com/wp/the-historical-silk-road-reinvented-on-railways/; http://www.balkaninsight.com/en/article/drug-lord-shot-in-%D0%B0-gunfight-at-bulgarian-sea-resort-06-09-2016; https://www.expresstorussia.com/moscow-tours.html; https://www.vice.com/en_us/article/vdxegj/french-connection-kevin-perry-marseille; http://www.cnn.com/2017/07/31/asia/india-heroin-drug-bust/index.html; https://www.statista.com/statistics/269857/most-profitable-companies-worldwide/
+                    Icon: <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
                 </p>
             </div>
@@ -141,12 +152,12 @@
                 <div class="fullscreen text-center">
 
 
-                    <h1 style="color: rgba(255,255,255,1)"> The Heroin Epidemic
-                    </h1>
-                    <div class="container" style="background-color:whitesmoke; opacity: 0.8">
+                    <h1 style="color: rgba(255,255,255,1); text-shadow: 3px 3px #0e0e0e"> The Heroin Epidemic
+                    </h1><br><br><br><br><br><br>
+                    <div class="container viewing " style="background-color:whitesmoke; opacity: 0.8;font-family: 'Pompiere', cursive;; font-size: 30px;">
 
-                        <p>
-                            Opiates have become an epidemic across our world. Millions of people are affected by this drug every year. The origin of 80% of the world's opiates originate from Afghanistan. Here we will look at how opiates travel from Afghanistan to it's destinations around the world
+                        <p style="background-color: whitesmoke; padding: 10px; position: center;font-size: 30px;opacity: 1; text-shadow: 1px 1px #0f0f0f;">
+                            Opiates have become an epidemic across our world. Millions of people are affected by this drug every year. The origin of 80% of the world's opiates originate from Afghanistan. Here we will look at how opiates travel from Afghanistan to it's destinations around the world.
                         </p>
 
                     </div>
@@ -157,26 +168,25 @@
 
             <section data-scene="scene2">
 
-                <h2>Afghanistan</h2>
-                <p>Afghanistan is the leading source of opiates in the world. This dangerous commodity has transformed the global economy. <br>
-                    <br>The 80% of the world's opiate supply originates from Afghanistan. It then gets smuggles across the countries thousands of miles of boarder into neighboring countries and smuggled onto high-profit destinations such as North America, Western Europe, or Australia. The most importatant heroin producing providences within Afghanistan are Helmand, Kandahar and Nangahar, highlighted on the map to the left. </p>
-                <i class="fa fa-globe fa-5x animated pulse infinite " aria-hidden="true"></i><p style="font-size: 20px">80% of the worlds opiates come from Afghanistan</p>
+
+                <h2 style="font-size: xx-large">Afghanistan</h2>
+                <p>Afghanistan is the leading source of opiates in the world. This dangerous commodity has transformed the global economy. Opiates include <b style="color: #cc0000">Opium, Heroin and Morphine.</b></p>
+                <p><i class="fa fa-globe fa-3x animated pulse infinite"></i><span style="font-family: 'Pompiere', cursive;; white-space: nowrap; font-size: 50px">80%</span>  of the world's opiate supply originates from Afghanistan. It then gets smuggles across the countries thousands of miles of border into neighboring countries and smuggled onto high-profit destinations such as North America, Western Europe, or Australia. The most importatant heroin producing providences within Afghanistan are<i> Helmand, Kandahar and Nangahar</i>, highlighted on the map to the left.</p>
                 <img src="img/poppies.jpg" class="img-responsive img-thumbnail" width="100%">
-                <p>LEGEND</p>
                 <div class="storymap-legend"><i style="background:  orange; opacity: 0.5"></i><p>Providence</p>></div>
-                <!--<i style="background: orange; opacity: 0.5"></i><p>Providence</p>-->
+
 
             </section>
             <section data-scene="scene2a">
                 <h2>Regions of Afghanistan</h2>
                 <h3>Northern Route</h3>
                 <p>
-                    The northern route originates from the northern region of Afghanistan. The boarder between Afghanistan, Turkmenistan, Uzbekistan, and Kyrgyzstan is very porrous. There are boarder guards that patrol the boarder but bribes are common among the security guards. There are hundreds of mountainous board that isn't guarded or observed at all. Once the opiates pass over the boarder they make their way towards Russia where the price increases significantly.
+                    The northern route originates from the northern region of Afghanistan. The border between Afghanistan, Turkmenistan, Uzbekistan, and Kyrgyzstan is very porrous. There are border guards that patrol the border but bribes are common among the security guards. There are hundreds of mountainous board that isn't guarded or observed at all. Once the opiates pass over the border they make their way towards Russia where the price increases significantly.
                 </p>
                 <h3>Balkans Route
                 </h3>
                 <p>
-                    The Balkans route departs from the western providences into Iran or into Uzbekistan and Pakistan and then smuggled into Iran. A significant portion of the opiates get comsummed in Iran but the majority continues to Turkey. The Balkan route is the main route that supplies Europe with the highest profits in the Western European countries.
+                    The Balkans route departs from the western providences into Iran or into Uzbekistan and Pakistan and then smuggled into Iran. A significant portion of the opiates get consumed in Iran but the majority continues to Turkey. The Balkan route is the main route that supplies Europe with the highest profits in the Western European countries.
                 </p>
                 <h3>
                     Southern Route
@@ -188,27 +198,24 @@
             <section data-scene="scene3a">
                 <h2>Northern Trade Route</h2>
                 <p>
-                    Starting from the northern providences heroin and opium is transported north through central asia.
-                    An estimated 1,000 tons of opium travels through the northern route at year. The northern regions of
-                    Afghanistan produce roughly 60 tons of opium a year, meaning nearly 900 additional tons of opium
-                    comes from other regions in Afghanistan. There is an estimated $393 million in profits that flow
-                    through this route, this includes profits from both local consumption and trafficked amounts. The
-                    amount of opium and heroin trafficked in Norther Afghanistan is about 3% of the entire nations GDP.
-                    <br> <br>Coming from the northern providences the heroin and opium travel through the porrous
-                    boarder region with Uzbekistan, Tajikistan, and Kyrgyzstan.
+                    Starting from the northern providences heroin and opium is transported across the border into Turkmenistan, Uzbekistan and Tajikistan. An estimated <b style="color: #cc0000"> 95 tons</b> of opiates is moved through this route every year. There is an estimated <b style="color: #cc0000;font-family: 'Pompiere', cursive;"> $393 million</b> in profits that flow through this route. The amount of opium and heroin trafficked in Northern Afghanistan is about 3% of the entire nations GDP.<br>
+                    <i class="fa fa-usd fa-2x animated pulse infinite"></i> <b style="font-size: 40px">393 million in profit</b><br>
+                    <b class="animated pulse infinate" style="font-family: 'Pompiere', cursive;; font-size: 40px">3% of Afghanistan's GDP</b><br>
+                    <img src="img/delivery-truck.svg" class="animated bounceInLeft infinite" style="animation-delay: 2s; animation-duration: 8s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%"><b style="font-size: 30px; font-family: 'Pompiere', cursive;">75% is transported by truck</b>
                     <img src="img/container_train.jpg" class="img-responsive img-thumbnail" width="100%">
-                    <p>
-                It is estimated that 75% of the opiates transported out of Afghanistan to the north travels by land via truck or car. But increasingly opiates are being transported by train through the vast expanses of central Asia.
-                </p>
-                <div class="storymap-legend"><i style="background:  blue; opacity: 0.5"></i><p>Trade Routes</p>></div>
             </section>
 
             <section data-scene="scene3">
                 <h2>Northern Trade Route</h2>
                 <p>
-                    The end destination for this route is the Russian market where profits from the sale of heroin can go from $3,000 per kilogram in Afghanistan to
-                    $22,000 in Moscow, and increase in profit of 733%. Heroin use has exploded in the Russian federation after the fall of the Soviet Union. Russia has an estimated 1.5 million heroin users.
-                    <i class="fa fa-line-chart fa-5x animated pulse infinite " aria-hidden="true"></i><p style="font-size: 20px">733% Increase</p>
+                    The end destination for this route is the Russian market where profits from the sale of heroin can go from <b style="color: #cc0000"> $3000</b> per kilogram in Afghanistan to
+                    <b style="color: #cc0000"> $22,000</b> in Moscow, and increase in profit of <b style="color: #cc0000">733%</b>.<br>
+                    <i class="fa fa-usd animated pulse infinite " aria-hidden="true"> 3,000</i>
+                    <i class="fa fa-arrow-right animated infinite" ></i>
+                    <i class="fa fa-usd animated pulse infinite " aria-hidden="true"> 22,000  </i>
+                    <img src="img/equal.svg" style="width: 40px" ><span>   </span>
+                    <i class="fa fa-2x fa-line-chart animated tada infinite">       733% Profit</i>
+
                 <img src="img/moscaw.jpg" class="img-responsive img-thumbnail" width="100%">
                 </p>
             </section>
@@ -217,32 +224,28 @@
                 <p>
                     The second route that comes out of Afghanistan is the Balkans route. This route flows from the
                     western providences through the Islamic Republic of Iran, through Turkey and eastern Europen
-                    countries to the profitable western European nations. An estimated $28 Billion is made in profits
-                    every year, an amount which exceeds the total GDP of Afghanistan($21 Billion in 2014). The largest percentage (64.7%) of
-                    the total profits along the Balkans route is at the western end where drug traffickers transport
-                    mass amounts of opiates to be sold in central and western Europe. A significant diversion of the
-                    opiates (27%) is consumed inside of the Islamic Republic of Iran.
-                </p><br><br>
-
+                    countries to the profitable western European nations. An estimated <b style="color: #cc0000">$28 Billion</b> is made in profits
+                    every year, an amount which exceeds the total GDP of Afghanistan <b style="color: #cc0000">$21 Billion</b> in 2014. A significant diversion of the
+                    opiates 27% is consumed inside of the Islamic Republic of Iran.
+                </p><hr>
+               . <i class="fa fa-usd fa-2x animated pulse infinite " aria-hidden="true"></i><b style="font-family: 'Pompiere', cursive;; font-size: 50px"> 28 billion in profits</b><hr>
+                <b>Yearly profits from other top companies:</b><br>
+                <img src="img/beer.svg" style="width: 40px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>8.27b -> Anheuser-Busch</b><br>
+                <img src="img/disneyland-castle.svg" style="width: 40px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>8.38b -> Disney</b><br>
+                <img src="img/windows-8.svg" style="width: 40px"><i class="fa fa-usd animated pulse infinite " aria-hidden="true">  </i><b>12.19b -> Microsoft</b>
                 <p>
-                    An estimated 170 tons of pure opiates leaves Afghanistan along the Balkan route. 58.7 tons of
-                    opiates are interdicted along the route, resulting in approximatly 80% of all illicit opiates seized
-                    in the world. By far the largest portain of seized opiates is in the Islamic Republic of Iran, where
-                    the interdict 46.7 tons of illicit opiates.
                     <img src="img/DimitarZhelyazkov.jpg" class="img-responsive img-thumbnail" width="100%">
-                    <p>Dimitar Zhelyazkov: Balkan drug lord
-                </p>
+                    <p>Dimitar Zhelyazkov: Balkan drug lord who was arrested in 2008 for drug and weapons smuggling. The vast majority of illicit drugs move through these regions via criminal organizations.
 
 
-
-
+            </p>
             </section>
             <section data-scene="scene4">
 
                 <h2>Balkans Trade Route</h2>
-                <p>The destination countries along the Balkan route are in Western Europe. Profits from heroin in the four top countries are $5.1 Billion in France, $3.4 Billion in the UK, $2.6 Billion in Germany and $1.5 Billion in Italy.<br>
-                    <i class="fa fa-pie-chart fa-4x animated pulse infinite " aria-hidden="true"></i><p style="font-size: 100px">64.7%</p> 64.7% of the heroin exported from Afghanistan reaches western Europe. In most countries along the route the majority of imported heroin is consumed. But in Belgium and the Netherlands 75% of the heroin that flowing into the country flows out, towards further western countries.
-                    <img src="img/theconnection.jpg" class="img-responsive img-thumbnail" width="100%"><p>Scene from "The Connection"
+                <p>The destination countries along the Balkan route are in Western Europe. Profits from heroin in the four top countries are:<br> <img src="img/france.svg" class=" animated infinite" style="width: 10%; padding-bottom: 20px">  <i class="fa fa-usd animated infinite " aria-hidden="true"></i><span class="animated pulse infinite" style="font-size: 40px;"> 5.1 Billion in France</span> <br> <img src="img/united-kingdom.svg" class=" animated infinite"style="width: 10%; padding-bottom: 20px">  <i class="fa fa-usd animated infinite " aria-hidden="true"> </i><span class="animated pulse infinite" style="font-size: 40px;"> 3.4 Billion in the UK</span> <br><img src="img/germany.svg" class=" animated infinite" style="width: 10%; padding-bottom: 20px">  <i class="fa fa-usd animated infinite " aria-hidden="true"> </i><span class="animated pulse infinite" style="font-size: 40px;">2.6 Billion in Germany</span>  <br> <img src="img/italy.svg" class=" animated infinite" style="width: 10%; padding-bottom: 20px">  <i class="fa fa-usd animated infinite " aria-hidden="true"> </i><span class="animated pulse infinite" style="font-size: 40px;"> 1.5 Billion in Italy</span><br>
+                    <i class="fa fa-2x fa-pie-chart animated pulse infinite" style="white-space: nowrap"> </i> <span >64.7%</span>of the heroin exported from Afghanistan reaches western Europe. In most countries along the route the majority of imported heroin is consumed. But in Belgium and the Netherlands <img src="img/delivery.svg" style="width: 8%"> <i style="font-family: 'Pompiere', cursive;" aria-hidden="true"> 75% </i> of the heroin that flowing into the country flows out, towards further western countries.
+                    <img src="img/theconnection.jpg" class="img-responsive img-thumbnail" width="100%"><p>Scene from "The Connection" a 2015 french film on a heroin smuggling ring in the mediterranean.
                 </p>
             </section>
             <section data-scene="scene5a">
@@ -250,31 +253,33 @@
                 <p>
                     Afghanistan is a land-locked country and has no access to maritime trade. The Islamic Republic of
                     Iran and Pakistan are the two major countries along the southern route that have ports that opiates
-                    are trafficked through. Maritime transport presents an oppurtunity to transport large quantities of
+                    are trafficked through. Maritime transport presents an opportunity to transport large quantities of
                     opiates quickly to other countries. Unlike the northern and Balkans trade routes which have one
-                    market destination (Russia and western Europe respectivly), the maritime trade network is
+                    market destination (Russia and western Europe respectively), the maritime trade network is
                     transported all over the world to other high-profit areas such as Asia, North America, Australia and
                     Western Europe.
                     <img src="img/3000india.jpeg" class="img-responsive img-thumbnail" width="100%">
-3000 lbs drug bust from Iran July 2017
+3000 lbs drug bust from Iran July 2017. Worth more than $545 million
                 </p>
             </section>
             <section data-scene="scene5">
                 <h2>Southern Trade Route</h2>
                 <p>
-                    Talk about how heroin flowing to the coast
+                    Opiates flow across the borders of Iran and Pakistan and end up on the shores of the Persian Gulf and the Gulf of Oman. Here the opiates are smuggled onto boats <img src="img/sea-ship.svg" class="animated bounceInLeft infinite" style="animation-delay: 3s; animation-duration: 4s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%"> and transported around the world. There have been Afghanistan heroin found increasingly in Asia, Western Europe and North America.
                     <img src="img/southchart.PNG" class="img-responsive img-thumbnail" width="100%">
+                    <br><br>
+
+
                 </p>
             </section>
 
 
-            <section data-scene="scene6">
-                <h2>Global routes to America</h2>
-                <p>
-                    global picutre of how heroin routes get to America; show chart of where heroin that gets interdicted
-                    from
-                </p>
-            </section>
+            <!--<section data-scene="scene6">-->
+                <!--<h2>Global routes to America</h2>-->
+                <!--<p>-->
+                    <!--Opiates originating in Afghanistan have been found all over the world. Traffickers are creative and always changing their methods to avoid detection by law authorities. Opiates are smuggled by <img src="img/delivery-truck.svg" class="animated bounceInLeft infinite" style="animation-delay: 1s; animation-duration: 8s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%"> land routes, <img src="img/sea-ship.svg" class="animated bounceInRight infinite" style="animation-delay: 3s; animation-duration: 4s; animation-timing-function: ease-in-out; animation-direction: alternate" width="10%">maritime trade routes, and by <img src="img/airplane-shape.svg" class="animated bounceInUp infinite" style="animation-delay: 4s; animation-duration: 3s; animation-timing-function: ease-in; animation-direction: alternate" width="10%"> air transportation.-->
+                <!--</p>-->
+            <!--</section>-->
             <section data-scene="scene7">
                 <h2>America</h2>
                 <p>
@@ -283,7 +288,14 @@
                     different source countries. There has been a rising epidemic of heroin useage within America over
                     the last few years. Recently this has come to light by President Trump issuing a National Public
                     Health Emergency on October 26, 2017.
-                </p>
+
+        </p>
+
+
+
+                <img src="img/nationalEM_Trump.PNG" width="100%">
+
+
             </section>
 
             <section data-scene="end" data-background="img/poppyBW.png" class="viewing section-opacity"
@@ -291,8 +303,8 @@
                 <div class="fullscreen text-center end-bg-img">
                     <br>
                     <h1 class="">Thank You</h1>
-
-                </div>
+                    <p style="background-color: whitesmoke; padding: 10px; position: center;font-size: 30px;opacity: .7">If you know someone that has lost their life to the Opiate epidemic please <a href="https://opioidepidemic.maps.arcgis.com/apps/StoryMapCrowdsource/index.html?appid=19f5247b5bd043dda9a25b22c0919760" target="_blank">share</a> share your story and help bring a face to the numbers
+                    </p></div>
             </section>
 
         </div>
@@ -330,7 +342,7 @@
         });
     }
 
-    var colors = chroma.scale(['#fafafa','red','black']).mode('lab').colors(7); //colors = chroma.scale('OrRd').colors(5);
+    var colors = chroma.scale(['lightyellow', 'orange','maroon','black']).mode('lab').colors(7);
     function setColor(density) {
         var id = 0;
         if (density > 7049) {
@@ -360,13 +372,18 @@
         return {
             fillColor: setColor(feature.properties.deaths),
             fillOpacity: .8,
-            weight: 1,
+            weight: 0,
             opacity: 1,
             color: '#ffffff',
             dashArray: '4'
         };
 
 }
+
+
+
+
+
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("storymap").style.marginLeft = "250px";
@@ -384,20 +401,68 @@
         document.getElementById("routeMenu").style.width = "0";
     }
 
-//    ***************LAYERS***************************************
-    var layers = {
+//     anychart.onDocumentReady(function () {
+//
+//         // This sample uses 3rd party proj4 component
+//         // that makes it possible to set coordinates
+//         // for the points and labels on the map and
+//         // required for custom projections and grid labels formatting.
+//         // See https://docs.anychart.com/latest/Maps/Map_Projections
+//
+// // create data set
+//         var data = [
+//             [[32.09, 67.26, 34.68,70.03]],
+//             [[34.68,70.03, 36.54, 70.07]],
+//             // [[51.5,-0.16, 51.7, -1.29]],
+//             // [[51.7, -1.29, 52.2, 0.27]],
+//             // [[52.2, 0.27, 53.3, -1.5]],
+//             // [[53.3, -1.5, 54.5,-3.4]],
+//             // [[54.5, -3.4, 57.1, -2.19]]
+//         ];
+//
+// // create map chart
+//         map = anychart.map();
+//
+// //create connector series
+//         var series = map.connector(data);
+//
+// // set geodata
+//         map.geoData(anychart.maps['afghanistan']);
+//
+// // name of the chart
+//         map.title("Afghanistan routes");
+//
+// // set container id for the chart
+//         map.container('paths');
+//
+// // initiate chart drawing
+//         map.draw();
+//     });
 
+
+    //    ***************LAYERS***************************************
+    var layers = {
+        layer1: {
+            layer: L.geoJson.ajax('assets/Bigarrow.geojson', {
+                    color: 'black',
+                    opacity: 3,
+                    weight:.2,
+                    fillColor:'red',
+                    fillOpacity: .7
+
+                }
+            )
+        },
         layer2: {
             layer: L.geoJson.ajax('assets/afghanistan.geojson', {
                 color: 'orange',
                 weight: 2,
-                opacity: 0.5,
-
+                opacity: 0.5
             }),
             legend: '<i style="background: orange; opacity: 0.5"></i><p>Providence</p>'
-
-
         },
+
+
         layer4: {
             layer: L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png')
         },
@@ -413,18 +478,21 @@
 
         },
         layer5: {
-            layer: L.geoJson.ajax('assets/afghanistan.geojson', {
+            layer: L.geoJson.ajax('assets/Afghanistan_dis.geojson', {
                 color: 'black',
-                weight: 0
+                weight: 2
             }),
 
         },
         layer6: {
-            layer: L.geoJson.ajax('assets/northernArrow.geojson', {
-                color: 'blue',
-                weight: 10,
+            layer: L.geoJson.ajax('assets/RussiaArrow.geojson', {
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
             }),
-            legend: '<i style="background:  blue; opacity: 0.5"></i><p>Trade Routes</p>'
+            // legend: '<i style="background:  blue; opacity: 0.5"></i><p>Trade Routes</p>'
         },
 
         layer7: {
@@ -436,16 +504,27 @@
         },
         layer8: {
             layer: L.geoJson.ajax('assets/SouthernArrow.geojson', {
-                color: 'blue',
-                weight: 10
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
             }),
             legend: '<i style="background:  blue; opacity: 0.5"></i><p>Trade Routes</p>'
         },
         layer9: {
             layer: L.geoJson.ajax('assets/drug_deaths_simple.geojson', {
-                color: 'blue',
-                style: style
-            })
+                style: style,
+                legend:'<i style="background-color: colors[6]; opacity: 0.5"></i><p>7049+</p>' +
+                '<i style="background-color: colors[5]; opacity: 0.5">V</i><p>4692 - 7048</p>' +
+                '<i style="background-color: colors[4]; opacity: 0.5">C</i><p>3608 - 4691</p>' +
+                '<i style="background-color: colors[3]; opacity: 0.5">S</i><p>1354 - 2607</p>' +
+                '<i style="background-color: colors[2]; opacity: 0.5">Q</i><p>585 - 1353</p>' +
+                '<i style="background-color: colors[1]; opacity: 0.5">R</i><p>190 - 584</p>' +
+                '<i style="background-color: colors[1]; opacity: 0.5">R</i><p>190 - 584</p>' +
+                '<i style="background-color: colors[0]; opacity: 0.5">T</i><p>0 - 190</p>'
+                // <div class="storymap-legend"><i style="background:  blue; opacity: 0.5"></i><p>Trade Routes</p></div>
+            }),
         },
 
         layer11: {
@@ -493,41 +572,86 @@
             layer: L.geoJson.ajax('assets/PAK.geojson')
         },
         layer23:{
-            layer: L.swoopyArrow([36.77, 68.59], [42.46, 68.76], {
-            text: 'Northern Route',
-            weight: 4,
-            opacity: 1,
-            fontSize: 20,
-            color: "#bb0017",
-            iconAnchor: [0, 0],
-                factor: .3,
-            textClassName: "arrow-label"
-        })
+            layer: L.geoJson.ajax('assets/arrow_Russia.geojson',{
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
+            })
         },
         layer24:{
-            layer: L.swoopyArrow([34.17, 61.97], [33.95,58.08], {
-                text: 'Balkans Route',
-                weight: 4,
-                opacity: 1,
-                fontSize: 20,
-                color: "#bb0017",
-                iconAnchor: [0, 0],
-                factor: .3,
-                textClassName: "arrow-label"
+            layer:L.geoJson.ajax('assets/northernArrows.geojson',{
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
             })
         },
         layer25:{
-            layer: L.swoopyArrow([30.21, 64.01], [24.59, 63.31], {
-                text: 'Southern Route',
-                weight: 4,
-                opacity: 1,
-                fontSize: 20,
-                color: "#bb0017",
-                iconAnchor: [0, 0],
-                factor: .3,
-                textClassName: "arrow-label"
+            layer:L.geoJson.ajax('assets/balkansArrows.geojson', {
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
             })
-        }
+        },
+        layer26:{
+            layer: L.geoJson.ajax('assets/southernArrows.geojson', {
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
+            })
+        },
+        layer27:{
+            layer: L.geoJson.ajax('assets/secondSouthern.geojson', {
+                color: 'black',
+                opacity: 3,
+                weight:.2,
+                fillColor:'red',
+                fillOpacity: .7
+            })
+        },
+        layer28:{
+            layer: L.geoJson.ajax('assets/GBR.geojson', {
+                color: 'black',
+                opacity:.7,
+                fillColor:'red',
+                fillOpacity:.7,
+            })
+        },
+        layer29:{
+            layer: L.geoJson.ajax('assets/ITA.geojson', {
+                color: 'black',
+                opacity:1,
+                fillColor:'green',
+                fillOpacity:.7,
+
+            })
+        },
+        layer30:{
+            layer: L.geoJson.ajax('assets/FRA.geojson', {
+                color: 'black',
+                opacity:1,
+                fillColor:'blue',
+                fillOpacity:.7,
+
+            })
+        },
+        layer31:{
+            layer: L.geoJson.ajax('assets/DEU.geojson', {
+                color: 'black',
+                opacity:1,
+                fillColor:'yellow',
+                fillOpacity:.7,
+
+            })
+        },
+
     };
 
 //    *******************SCENES*************************************
@@ -545,14 +669,14 @@
             lat: 34.343717,
             lng: 75.551463,
             zoom: 5,
-            layers: ['layer23','layer2','layer4', 'layer10', 'layer11', 'layer12','layer13','layer14', 'layer24','layer25'],
+            layers: ['layer4','layer1', 'layer11', 'layer12','layer13','layer14'],
             name: "Afghanistan regions"
         },
         scene3a: {
             lat: 41.6134051,
             lng: 78.287486,
-            zoom: 5,
-            layers: ['layer4', 'layer5', 'layer15','layer16', 'layer17','layer18','layer19'],
+            zoom: 4.5,
+            layers: ['layer4', 'layer5', 'layer15','layer16', 'layer17','layer18','layer19', 'layer24'],
             name: "Northern Trade Route"
         },
         scene3: {
@@ -564,41 +688,41 @@
         },
         scene4a: {
             lat: 38.208498,
-            lng: 55.912203,
+            lng: 60.912203,
             zoom: 4.5,
-            layers: ['layer4', 'layer5', 'layer7', 'layer20', 'layer21'],
+            layers: ['layer4', 'layer5', 'layer20','layer21','layer25'],
             name: "Balkans Trade Route"
         },
         scene4: {
             lat: 45.208498,
             lng: 58.912203,
-            zoom: 4.24,
-            layers: ['layer4', 'layer5', 'layer7'],
+            zoom: 3.5,
+            layers: ['layer4', 'layer5', 'layer25', 'layer28','layer29','layer30','layer31'],
             name: "Balkans Trade Route"
         },
         scene5a: {
             lat: 28.208498,
-            lng: 64.512203,
+            lng: 68.512203,
             zoom: 6.3,
-            layers: ['layer4', 'layer5', 'layer8','layer21','layer22'],
+            layers: ['layer4', 'layer5','layer21','layer22','layer26'],
             name: "Southern Trade Route"
         },
 
         scene5: {
             lat: 30.208498,
-            lng: 60.912203,
+            lng: 75.912203,
             zoom: 4.24,
-            layers: ['layer4', 'layer5', 'layer8'],
+            layers: ['layer4', 'layer5','layer27'],
             name: "Southern Trade Route"
         },
 
-        scene6: {
-            lat: 25.208498,
-            lng: 60.912203,
-            zoom: 3,
-            layers: ['layer4', 'layer5', 'layer8', 'layer6','layer7'],
-            name: "Global Routes to America"
-        },
+        // scene6: {
+        //     lat: 25.208498,
+        //     lng: 60.912203,
+        //     zoom: 3,
+        //     layers: ['layer4', 'layer5', 'layer8', 'layer6','layer7'],
+        //     name: "Global Routes to America"
+        // },
         scene7: {lat: 39.369179, lng: -78.513175, zoom: 4.5, layers: ['layer4', 'layer9'], name: "America"},
         scene8: {lat: 44.5701158, lng: -123.2949388, zoom: 12, layers: ['layer4', 'layer2'], name: "End"}
     };
@@ -608,11 +732,11 @@
         scenes: scenes,
         layers: layers,
         baselayer: layers.layer4,
-        navbar: true,
+        navbar: false,
         legend: true,
         loader: false,
         flyto: true,
-        credits: "Created by Alex Walters for GEOG 371: Web Mapping",
+        credits: "Created by Alex Walters",
         scalebar: true,
         scrolldown: true,
         progressline: true,
