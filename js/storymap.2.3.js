@@ -297,7 +297,7 @@
 
                 $(this).addClass('viewing');
 
-                $(".storymap-scroll-down").css("left", "2%");
+                $(".storymap-scroll-down").css("left", "50%");
 
                 if (typeof $(this).data("background") !== 'undefined') {
                     $(this)
