@@ -1,17 +1,17 @@
 # Heroin_Overview
 
-Title: Ther Heroin Epidemic
+Title: The Heroin Epidemic
 
 Description: The purpose of the project was to show awareness of the opiate epidemic that has grown over the last few decades. The project starts by showing the top producing regions of Afghanistan, where 80% of the worlds opium is grown. Then it shows in greater detail each of the three trade routes where opium and heroin get smuggled out. Each route showcases a different aspect of the trade: The northern route focuses on transportation methods, the Balkans route focus on the profit aspect and the southern route focus on how disperse the route is. The end of the project shows a county map of drug-related deaths in America, attempting to show the impact on a local scale the effects of the drug trade starting in Afghanistan.
 
 Goal: The goal of the project is to spread awareness about the impacts of the opiate trade originating in Afghanistan. 
 
-Technical Summary: 1)System architecture: Based on a storymanp tempate there are scenes that, as you scroll through them, show you different aspects of the drug trade. First there two scenes that give an overview of where opium is grown in Afghanistan and where the major trade routes are. The next three sections going into greater detail on each trade route, with two scenes each having an overview scene and an impacts scene. The last section shows the impact of drugs in America. This web map was based on client-side instead of server-side because there wasn't large amounts of data that needed to be processed or stored. 
+Technical Summary: System architecture: Based on a storymanp tempate there are scenes that, as you scroll through them, show you different aspects of the drug trade. First there two scenes that give an overview of where opium is grown in Afghanistan and where the major trade routes are. The next three sections going into greater detail on each trade route, with two scenes each having an overview scene and an impacts scene. The last section shows the impact of drugs in America. This web map was based on client-side instead of server-side because there wasn't large amounts of data that needed to be processed or stored. 
 
-2) Main functions: The main function of the map is to tell a story. As you scroll through the scenes the story takes you through the opium trade. Other major functions are: about and credit modals with a collapsing side navigation bar. Social media buttons that take you to the respective sites. a scrolling button to move through the scenes. a mini-map displaying where in the world you are. 
+Main functions: The main function of the map is to tell a story. As you scroll through the scenes the story takes you through the opium trade. Other major functions are: about and credit modals with a collapsing side navigation bar. Social media buttons that take you to the respective sites. a scrolling button to move through the scenes. a mini-map displaying where in the world you are. 
 In the screenshot below you can see several of the main features including a minimap in the bottom left, and nnavigation arrow in the bottom center, self-drawn arrows on the main map, and a moving icon (the truck).
 
-<img src="">
+<img src="img/screenshot_final.jpg">
 
 Reflection: This course was excellent. In my past courses both at Oregon State and Michigan State we focus on static maps created in a GIS. These maps are often meant to be 2D and printed out on paper. This class showed how benifital it can be to showing a map on a website. The interactivity and ability to change the map really add an element to understanding what is trying to be shown on the map. When designing a web map there are a lot more tools that are avaliable to you to showcase your data, each tool adding an element that can assist the creator. 
 
